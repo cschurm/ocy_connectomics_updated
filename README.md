@@ -16,7 +16,7 @@ The following external dependencies need to be in your MATLAB path:
 Two scripts need to be called to generate the plots. All other `.m` files and external dependencies (see above) must be on your _MATLAB_ path. The data should be located in the current working directory.
 
 1. `OCY_analyze_all.m`: main script to analyze data, using parallel pool if available.
-2. `OCY_generate_figures.m`: collects analyzed data from subfolders and generates the plots.
+2. `OCY_main.m`: master script called by `OCY_analyza_all.m` and contains additional operations and options for analysis 
 
 ## Data structures
 Data structures are saved as `.mat` files of the same name as the variable in each folder.

@@ -13,12 +13,6 @@ path{1}=pathname;
 %define pool object first for parallel processing
 %poolobj = parpool('local',6); %can't exceed number of cores available
 
-% must pass additional functions to the parallel pool so it can access
-% them, for example 'matlab_bgl_sp_mex.c' is needed and not passed
-% automatically bc it is a "C" program file
-
-%addAttachedFiles(poolobj,{'matlab_bgl_sp_mex.c'});
-
 % call pool to execute
 % 'parfor' opens a thread for each image within the pool object 
 for i=1:length(path)      %originally 'parfor' loop, 'for' loop for debug only, may take considerable time
