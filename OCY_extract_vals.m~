@@ -1,0 +1,23 @@
+load n.mat
+
+
+count=1;
+for i=1:length(n.cc)
+    if n.cc(i) > 0
+        new_cc(count)=n.cc(i);
+        count=count+1;
+    end
+end
+
+real_cc = count/length(n.cc);
+avg_c = mean(new_cc);
+
+nn=struct2cell(n);
+
+count=1;
+for i=1:length(n.cc)
+    if n.cc(i) > 0
+        new_cc(count)=n.cc(i);
+        count=count+1;
+    end
+end
