@@ -1,7 +1,9 @@
 # Osteocyte Connectomics
-This is the _MATLAB_ code used to produce all data plots in the paper __"The small world of osteocytes: connectomics of the osteocyte lacuno-canalicular network"__ (New J. Phys. 19 073019, https://doi.org/10.1088/1367-2630/aa764b) from the raw confocal image data.
-Updated Mex Files and C+ Wrappers included for the paper "Degenerated Lacunocanalicular Networks, Mass Transport and Osteocyte Mechanosensation in Bone with Aging and Disrupted TGFb Signaling" by Schurman et. al.
-For reference to the original code/scripts see the gothic repository at https://github.com/phi-max/OCY_connectomics 
+This is the _MATLAB_ code used in the paper __"The small world of osteocytes: connectomics of the osteocyte lacuno-canalicular network"__ (New J. Phys. 19 073019, https://doi.org/10.1088/1367-2630/aa764b) from the raw confocal image data.
+
+This repository is essentially a clone of the original ( https://github.com/phi-max/OCY_connectomics ) with updated Mex Files and C+ Wrappers included for the paper __"Degenerated Lacunocanalicular Networks, Mass Transport and Osteocyte Mechanosensation in Bone with Aging and Disrupted TGFb Signaling"__ by Schurman et. al.
+This repository contains the scripts to complete osteocyte connectomics analysis from confocal image data.
+
 
 ## Dependencies
 The following external dependencies need to be in your MATLAB path:
